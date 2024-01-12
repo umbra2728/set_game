@@ -11,7 +11,6 @@ def is_valid(newval):
             img2 = ImageTk.PhotoImage(Image.open('cards/' + ''.join(N) + '.png'))
             lbl.configure(image=img2)
             lbl.image = img2
-            ntr.delete(0, END)
     return True
 
 
